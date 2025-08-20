@@ -1,4 +1,10 @@
+/* Inter font */
+.Inter{
+    font-family: "Inter", sans-serif !important;
+}
+
 /* global css start */
+
 *{
     padding: 0;
     margin: 0;
@@ -84,7 +90,6 @@ header .nav {
     padding: 30px 0;
     align-items: center;
 }
-header .nav .logo{}
 .nav .logo a {
     text-decoration: none;
 }
@@ -92,8 +97,6 @@ header .nav .logo{}
     font-size: 34px;
     font-weight: 800;
 }
-.nav .nav-right{}
-.nav .nav-right button{}
 
 header .banner {
     height: 90vh;
@@ -106,7 +109,6 @@ header .banner h2{
     text-align: center;
     margin-bottom: 40px;
 }
-header .banner button{}
 
 /* action section start */
 .action p {
@@ -122,12 +124,30 @@ header .banner button{}
 
 
 /* productive users section start */
+.custom-container{
+    padding: 60px 0;
+    background-color: #DAE3FF;
+    border-radius: 24px;
+}
+
 .productive-users h2 {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 60px;
 }
-.productive-users h3{}
-.productive-users h4{}
+
+.productive-container{
+    justify-content: space-around;
+}
+
+.productive-users h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.productive-users h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
 /* productive users section end */
 /* custom css end */
