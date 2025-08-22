@@ -48,6 +48,10 @@
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .primary-btn{
     padding: 12px 36px;
     border-radius: 3px;
@@ -105,6 +109,7 @@ header .banner {
     height: 90vh;
     justify-content: center;
     flex-direction: column;
+    background: transparent;
 }
 header .banner h2{
     font-size: 65px;
@@ -207,4 +212,72 @@ p.review-date {
     border-radius: 48px;
 }
 /* call to action section end */
+/* contact section start */
+.contact .contact-title h2 {
+    font-size: 97px;
+    font-weight: 700;
+}
+.contact-form label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 5px;
+}
+input[type=text], input[type=email], textarea {
+    max-height: 70px;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #D5DCEC;
+    width: 500px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+textarea{
+    height: 60px;
+}
+input[type=submit]{
+    max-height: 70px;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+input::placeholder{
+    font-size: 20px;
+    color: #000;
+    opacity: .5;
+}
+/* contact section end */
+
+/* footer section start */
+.footer-contact{
+    max-width: 600px;
+    padding: 10px 15px;
+}
+footer h2{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.footer-contact p{
+    font-size: 19px;
+    color: #8987A1;
+}
+.list{
+    justify-content: space-around;
+}
+.list li{
+    list-style: none;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 20px;
+}
+/* footer section end */
 /* custom css end */
